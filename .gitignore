@@ -1,0 +1,5 @@
+output/
+spool/*.DAT
+__pycache__/
+*.pyc
+*.log

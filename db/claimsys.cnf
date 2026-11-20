@@ -1,0 +1,9 @@
+# CLAIMSYS database server settings (copied to /etc/mysql/mariadb.conf.d)
+# Socket only: the batch and the intranet pages run on the same box.
+[mysqld]
+skip-networking
+skip-name-resolve
+default-storage-engine = MyISAM
+character-set-server   = latin1
+collation-server       = latin1_swedish_ci
+key_buffer_size        = 64M
